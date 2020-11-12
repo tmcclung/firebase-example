@@ -1,5 +1,4 @@
-FROM reploy/nodejs
-
+FROM node:10
 RUN npm install -g firebase-tools
 
 RUN apt-get update
